@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Web", "Todo.Web\Todo.Web.csproj", "{A5883209-0540-40FB-8CC9-97E8453443CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.EF", "Todo.EF\Todo.EF.csproj", "{FCAA4338-0411-4A9C-BD2E-C64A63ABE1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Services", "Todo.Services\Todo.Services.csproj", "{E9AD1A06-A078-4931-9C5A-325096EB4254}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5883209-0540-40FB-8CC9-97E8453443CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5883209-0540-40FB-8CC9-97E8453443CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5883209-0540-40FB-8CC9-97E8453443CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5883209-0540-40FB-8CC9-97E8453443CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAA4338-0411-4A9C-BD2E-C64A63ABE1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAA4338-0411-4A9C-BD2E-C64A63ABE1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAA4338-0411-4A9C-BD2E-C64A63ABE1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAA4338-0411-4A9C-BD2E-C64A63ABE1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9AD1A06-A078-4931-9C5A-325096EB4254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AD1A06-A078-4931-9C5A-325096EB4254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AD1A06-A078-4931-9C5A-325096EB4254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AD1A06-A078-4931-9C5A-325096EB4254}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92D8422D-80FF-4FBA-8277-2E3266229E16}
+	EndGlobalSection
+EndGlobal
