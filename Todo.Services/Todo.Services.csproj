@@ -51,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthService.cs" />
+    <Compile Include="IAuthService.cs" />
     <Compile Include="TodoService.cs" />
     <Compile Include="ITodoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

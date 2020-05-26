@@ -17,6 +17,7 @@ namespace Todo.Web.IoC
             containerBuilder.RegisterControllers(typeof(MvcApplication).Assembly);
 
             containerBuilder.RegisterType<TodoService>().As<ITodoService>();
+            containerBuilder.RegisterType<AuthService>().As<IAuthService>();
 
             var container = containerBuilder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));

@@ -13,8 +13,8 @@ namespace Todo.Web.Mappings
         {
             return new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<EF.Entities.Todo, TodoModel>();
-                //.ForMember(m => m.Title, opts => opts.MapFrom(t => t.Title));
+                cfg.CreateMap<EF.Entities.Todo, TodoModel>()
+                .ForMember(m => m.Title, opts => opts.MapFrom(t => t.Title));
                 cfg.CreateMap<TodoModel, EF.Entities.Todo>();
             });
         }
